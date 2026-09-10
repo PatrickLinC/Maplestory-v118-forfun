@@ -1,0 +1,43 @@
+# ── 二進位 / 建置產物(本 repo 只收原始碼,不收編譯結果)──
+*.dll
+*.exe
+*.obj
+*.lib
+*.exp
+*.pdb
+*.class
+*.jar
+
+# ── 遊戲資源 / 客戶端(版權,禁止上傳)──
+*.wz
+*.img
+*.img.xml
+*.nx
+
+# ── 記憶體 dump / 逆向工程中間產物 ──
+*.bin
+maple_*.bin
+*.r2p
+*.pkl
+
+# ── 日誌 / 暫存 ──
+*.log
+*.tmp
+*.bak
+*.orig
+
+# ── 敏感檔(帳密 / 資料庫 / 金鑰,絕不上傳)──
+*.env
+*secret*
+*password*
+*.key
+*.pem
+db.properties
+world.properties
+my.ini
+data/
+
+# ── 作業系統 ──
+Thumbs.db
+desktop.ini
+.DS_Store
